@@ -1,0 +1,27 @@
+* {
+    /* font-family: 'Pacifico', cursive; */
+    font-style: italic;
+    font-size: 50px;
+    font-variant: inherit;
+    line-height: 100%;
+    color: blue;
+    text-transform: capitalize;
+    /* viết hoa chử đầu */
+    box-shadow: 5px 10px #222;
+    /* ngang : dọc : mờ : màu */
+    letter-spacing: 0.5rem;
+    /* khoảng cách các chử trong văn bản */
+    word-spacing: 1rem;
+    /* Khoảng cách giữa các từ  */
+    text-align: center;
+    /* căn chỉnh giữa  */
+}
+
+@media only screen and (max-width: 900px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+
+/* hoat động đổi màu khi max with (kích thước màn hình) hơn hoặc nhỏ hơn 600px */
