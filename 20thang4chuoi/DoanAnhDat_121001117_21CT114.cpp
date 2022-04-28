@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-
+// Xóa kí tự in hoa
 void kitudacbiet(string s, int count)
 {
 
@@ -16,6 +16,7 @@ void kitudacbiet(string s, int count)
     }
     cout << "\n Co tat ca " << count << " ky tu in hoa trong chuoi.\n";
 }
+//Xóa kí tự chừa lại số kí tự
 void xoakitu(string s)
 {
     char result[100];
@@ -33,6 +34,15 @@ void xoakitu(string s)
             cout << result << endl;
             dem = 0;
         }
+    }
+}
+// xóa all các kí tự in hoa và thường
+void xoa(string s)
+{
+    for (int i = 0; i <= s.size(); i++)
+    {
+        if (s[i]=='-' || s[i] >='0' && s[i] <='9' || s[i] =='!')
+            cout << s[i] ;
     }
 }
 int main()
